@@ -9,8 +9,8 @@ FED2
 
 - Always declare DOCTYPE and character encoding
 - Never ever use inline CSS
-- Link to your CSS files within the `head` tag in your page
-- Add your script files to the bottom of the page, just before the closing `body` tag
+- Link to your CSS files within the ```<head>``` tag in your page
+- Add your script files to the bottom of the page, just before the closing ```<body>``` tag
 - Make your HTML semantic
 - Use lowercase markup
 - Write consistently formatted code
