@@ -6,13 +6,13 @@ function Person(name){
 }
 
 Person.prototype.walk = function(location) {
-	this.walk = location;
-	console.log(this.name + ' walks to ' + this.walk + '.')
+	this.location = location;
+	console.log(this.name + ' walks to ' + this.location + '.')
 };
 
 Person.prototype.eat = function(food) {
-	this.eat = food;
-	console.log(this.name + ' eats a ' + this.eat + '.')
+	this.food = food;
+	console.log(this.name + ' eats a ' + this.food + '.')
 };
 
 sjaak = new Person ('Sjaak');
