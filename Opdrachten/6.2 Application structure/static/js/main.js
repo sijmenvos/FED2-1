@@ -1,10 +1,10 @@
 (function(){
  
     var controller = {
-            init: function() {
-                
-            }
+        init: function() {
+            
         }
+    }
         
     var setup = {
 
