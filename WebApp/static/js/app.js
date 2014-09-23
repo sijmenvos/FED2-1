@@ -40,7 +40,7 @@ var app = app || {};
 			Transparency.render(document.getElementById('about'), app.content.about);
 		},
 		movies: function(){
-			Transparency.render(document.getElementById('render_movies'), app.content.movies, directives);
+			Transparency.render(document.getElementById('render_movies'), app.content.movies, app.directives);
 		}
 	}
 

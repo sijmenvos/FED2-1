@@ -37,15 +37,15 @@ var app = app || {};
 				cover: 'images/the-dark-knight.jpg'
 			}
 		]
-	}
+	};
 
-	directives = {
+	app.directives = {
 
-  	image: {
-    	src: function(params) {
-      		return "static/" + this.cover;
-    	}
-  	}
-};
+	  	image: {
+	    	src: function(params) {
+	      		return "static/" + this.cover;
+	    	}
+	  	}
+	};
 
 })(); 
